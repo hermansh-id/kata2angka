@@ -11,10 +11,10 @@ Anda dapat menginstal **kata2angka** menggunakan pip:
 ```bash
 pip install kata2angka
 ```
-
 ## Penggunaan
 
 Berikut adalah contoh penggunaan dari library ini:
+
 ```python
 from kata2angka import word_to_num
 
@@ -32,7 +32,7 @@ Proyek ini dilisensikan di bawah Lisensi MIT. Lihat berkas LICENSE untuk informa
 ## Sitasi
 Jika Anda menggunakan kata2angka dalam proyek Anda, kami akan menghargai jika Anda memberikan sitasi kepada kami:
 
-```bibtex
+```
 @misc{kata2angka,
   title = {kata2angka: Konversi Kata ke Angka},
   author = {Herman Sugi Harto},
@@ -40,5 +40,3 @@ Jika Anda menggunakan kata2angka dalam proyek Anda, kami akan menghargai jika An
   howpublished = {\url{https://github.com/hermansh-id/kata2angka}},
 }
 ```
-
-Dibuat dengan ❤️ oleh Herman Sugi Harto
