@@ -37,6 +37,19 @@ class AdditionalTests(unittest.TestCase):
         self.assertEqual(k2a.word_to_num("kedua belas"), 12)
         self.assertEqual(k2a.word_to_num("dua puluh ketiga"), 23)
 
+    def test_point_numbers(self):
+        self.assertEqual(k2a.word_to_num("lima puluh tiga koma lima"), 53.5)
+        self.assertEqual(k2a.word_to_num("seratus dua koma tujuh"), 102.7)
+        self.assertEqual(k2a.word_to_num("sembilan ratus sembilan puluh sembilan koma delapan puluh satu"), 999.81)
+        self.assertEqual(k2a.word_to_num("dua puluh lima koma nol nol enam"), 25.006)
+        self.assertEqual(k2a.word_to_num("sepuluh koma nol"), 10.0)
+        self.assertEqual(k2a.word_to_num("lima ratus koma lima puluh enam"), 500.56)
+        self.assertEqual(k2a.word_to_num("satu ribu tiga ratus dua puluh satu koma empat puluh tujuh"), 1321.47)
+        self.assertEqual(k2a.word_to_num("delapan ribu koma lima"), 8000.5)
+        self.assertEqual(k2a.word_to_num("seratus ribu koma nol satu"), 100000.01)
+        self.assertEqual(k2a.word_to_num("tujuh juta enam ratus koma tiga puluh satu ribu sembilan puluh empat"), 7000600.31094)
+
+        
     def test_large_ordinal_numbers(self):
         self.assertEqual(k2a.word_to_num("seratus dua puluh kelima"), 125)
         self.assertEqual(k2a.word_to_num("seribu lima ratus keenam"), 1506)

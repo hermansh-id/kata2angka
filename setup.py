@@ -9,7 +9,7 @@ def open_file(fname):
 setup(
     name = 'kata2angka',
     packages = ['kata2angka'],  # this must be the same as the name above
-    version = '0.1.1',
+    version = '0.1.2',
     license=open('LICENSE.txt').read(),
     description = 'Konversi kata ke nomor.',
     author = 'Herman Sugi Harto',
